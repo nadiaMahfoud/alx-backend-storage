@@ -1,6 +1,7 @@
 -- creates a stored procedure ComputeAverageWeightedScoreForUser that
 -- computes and store the average weighted score for a student.
 
+
 DELIMITER //
 CREATE PROCEDURE ComputeAverageWeightedScoreForUser(IN user_id INT)
 BEGIN
